@@ -1,27 +1,67 @@
 # MaterialPersianDateAdapter
+# &#x202b; آداپتور هجری شمسی برای Angular Material DateAdapter
+   
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+[![MIT License][license-image]][license-url] [![Build Status][travis-image]][travis-url] [![NPM version][npm-version-image]][npm-url] [![Codacy Badge][codacy-quality]][codacy-quality-url]
 
-## Development server
+Set jalali (shamsi, persian, khorshidi) dates for Angular Material DatePicker.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<br/>
 
-## Code scaffolding
+<img src="sample-calendar.png" width="314" height="370" alt="PersianDatePicker"> 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br/>
 
-## Build
+Jalali calendar system borrowed from [Jalali Moment](https://github.com/fingerpich/jalali-moment) js library.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+An npm package that contains jalali moment [DateAdapter](https://blog.angular.io/taking-advantage-of-the-angular-material-datepicker-237e80fa14b3) for angular material datepicker.
 
-## Running unit tests
+<br/>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## How to
 
-## Running end-to-end tests
+### **Dependencies**  
+```shell
+ng add @angular/material
+npm i jalali-moment -S
+npm i @angular/material-moment-adapter
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+## Special Thanks
+ https://github.com/peymanebrahimi/MaterialJalaliMomentAdapter
+ 
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[npm-url]: https://npmjs.org/package/material-jalali-moment-adapter
+[npm-version-image]: http://img.shields.io/npm/v/material-jalali-moment-adapter.svg?style=flat
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
+
+[travis-url]: https://travis-ci.org/peymanebrahimi/MaterialJalaliMomentAdapter
+[travis-image]: https://travis-ci.org/peymanebrahimi/MaterialJalaliMomentAdapter.svg?branch=master
+
+
+[codacy-quality]:https://api.codacy.com/project/badge/Grade/1b424dc44eb040d1a8c10fe9ba58016d
+[codacy-quality-url]:https://www.codacy.com/manual/peymanebrahimi/MaterialJalaliMomentAdapter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=peymanebrahimi/MaterialJalaliMomentAdapter&amp;utm_campaign=Badge_Grade
